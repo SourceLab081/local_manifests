@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote name="github2"
+        <remote name="fog"
                 fetch="https://github.com" />
+        
+         <remote name="fog2"
+                fetch="https://gitlab.com" />
 
         <!-- Sync trees -->
-        <project path="kernel/xiaomi/fog" name="SourceLab081/sm6225-main" remote="github2" revision="fog-new" />
-        <project path="device/xiaomi/fog" name="SourceLab081/device_xiaomi_fog-11_2" remote="github2" revision="SkylineUI-A15" />
-        <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="github2" revision="fifteen" />
+        <project path="kernel/xiaomi/fog" name="SourceLab081/uvite" remote="fog" revision="vauxite-fog" />
+        <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="fog" revision="fifteen" />
+        <project path="device/xiaomi/fog" name="sourceslab062/device_xiaomi_fog" remote="fog2" revision="15-ProjectInfinity-X" />
         
-
-        <!-- Sync Hardware Dependencies for Xiaomi Devices -->
-        <project path="hardware/xiaomi" name="yaap/hardware_xiaomi" remote="github2" revision="fifteen" />
-       
 </manifest>
