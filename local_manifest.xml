@@ -11,6 +11,5 @@
         <project path="kernel/xiaomi/fog" name="SourceLab081/uvite" remote="fog" revision="vauxite-fog" />
         <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="fog" revision="fifteen" />
         <project path="device/xiaomi/fog" name="sourceslab062/device_xiaomi_fog" remote="fog2" revision="15-ProjectInfinity-X" />
-        <project path="hardware/xiaomi" name="yaap/hardware_xiaomi" remote="fog" revision="fifteen" />
         
 </manifest>
