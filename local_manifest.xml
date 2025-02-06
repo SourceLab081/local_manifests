@@ -9,7 +9,7 @@
         
         <!-- Sync trees -->
         <project path="kernel/xiaomi/fog" name="SourceLab081/sm6225-main" remote="fog" revision="fog-new" />
-        <project path="device/xiaomi/fog" name="sourceslab062/device_xiaomi_fog" remote="fog2" revision="15-mist" />
+        <project path="device/xiaomi/fog" name="sourceslab062/device_xiaomi_fog2" remote="fog2" revision="15-mist" />
         <project path="vendor/xiaomi/fog" name="sourceslab062/vendor_xiaomi_fog" remote="fog2" revision="fifteen-qpr1" />
         
 
