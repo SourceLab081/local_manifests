@@ -2,10 +2,10 @@
 <manifest>
 
         <remote name="fog"
-                fetch="https://github.com" />
+                fetch="https://github.com" clone-depth="1" />
 
         <remote name="fog2"
-                fetch="https://gitlab.com" />
+                fetch="https://gitlab.com" clone-depth="1" />
         
         <!-- Sync trees -->
         <project path="kernel/xiaomi/fog" name="SourceLab081/sm6225-main" remote="fog" revision="fog-new" />
