@@ -9,12 +9,14 @@
         
         <remote  name="HorizonDroidLab_udc"
            fetch="https://github.com/HorizonDroidLab"
-           revision="refs/heads/udc" />
+           revision="refs/heads/udc"  clone-depth="1" />
                 
         <!-- Sync trees -->
-        <project name="SourceLab081/uvite" path="kernel/xiaomi/fog" remote="fog" revision="vauxite-fog" />
+        <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="fog" revision="vauxite-fog" />
         <project path="device/xiaomi/fog" name="sourceslab062/device_xiaomi_fog" remote="fog2" revision="14-HorizonDroid" />
         <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="fog" revision="fourteen" />
+
+        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="fog" revision="lineage-21" />
         
         <remove-project name="system_core" />
         <project path="system/core" name="system_core" groups="pdk" remote="HorizonDroidLab_udc" />
