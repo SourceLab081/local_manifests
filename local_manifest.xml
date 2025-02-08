@@ -15,6 +15,7 @@
         <project name="SourceLab081/uvite" path="kernel/xiaomi/fog" remote="fog" revision="vauxite-fog" />
         <project path="device/xiaomi/fog" name="sourceslab062/device_xiaomi_fog" remote="fog2" revision="14-HorizonDroid" />
         <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="fog" revision="fourteen" />
-
+        
+        <remove-project name="system_core" />
         <project path="system/core" name="system_core" groups="pdk" remote="HorizonDroidLab_udc" />
 </manifest>
