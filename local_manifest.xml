@@ -15,12 +15,12 @@
         <project path="external/libcxx" name="LineageOS/android_external_libcxx" remote="github2" revision="lineage-20.0"/> -->
  
         <!-- Sync Trees -->
-        <project path="device/xiaomi/fog" name="sourceslab062/device_xiaomi_fog" remote="gitlab" revision="CarbonROM-11.0" />
         <project path="kernel/xiaomi/fog" name="SourceLab081/uvite" remote="github2" revision="vauxite-fog" />
+        <project path="device/xiaomi/fog" name="sourceslab062/device_xiaomi_fog" remote="gitlab" revision="CarbonROM-11.0" />
         <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="Iverz" revision="thirteen" />
 
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Iverz" revision="thirteen-aosp" />
-       <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="tejas101k/clang-r450784d" remote="gitlab" revision="master" />
+       <!-- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="tejas101k/clang-r450784d" remote="gitlab" revision="master" /> -->
        
 </manifest>
