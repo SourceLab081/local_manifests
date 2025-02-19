@@ -4,10 +4,14 @@
         <remote name="fog"
                 fetch="https://github.com" />
 
-        <!-- Sync trees -->
-        <project name="SourceLab081/device_xiaomi_fog-11_2" path="device/xiaomi/fog" remote="fog" revision="cr-9.0" />
-        <project name="SourceLab081/uvite" path="kernel/xiaomi/fog" remote="fog" revision="vauxite-fog" />
-        <project name="develux44/vendor_xiaomi_fog-11" path="vendor/xiaomi/fog" remote="fog" revision="lineage-18.1" />
-	<project name="crdroidandroid/android_hardware_xiaomi" path="hardware/xiaomi" remote="fog" revision="11.0" />
+        <remove-project name="vendor_qcom_opensource_dataservices" /> 
+        <project path="vendor/qcom/opensource/dataservices" name="Komodo-OS/vendor_qcom_opensource_dataservices" remote="fog" revision="staging/12.2_rebase-android-12.1.0_r4" />
+        <remove-project name="packages_apps_TouchGestures" />
+        <project path="packages/apps/TouchGestures" name="Komodo-OS/packages_apps_TouchGestures" remote="fog" revision="Tiramisu-bak" />
+
+        <!-- Sync Trees -->
+	    <project path="kernel/xiaomi/fog" name="SourceLab081/sm6225-main" remote="fog" revision="fog-new" />
+        <project path="device/xiaomi/fog" name="online0code/device_xiaomi_fog" remote="fog" revision="12-kmd" />
+        <project path="vendor/xiaomi/fog" name="develux44/vendor_xiaomi_fog-11" remote="fog" revision="lineage-19.1" />
        
 </manifest>
