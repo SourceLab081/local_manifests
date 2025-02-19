@@ -2,7 +2,7 @@
 <manifest>
 
         <remote name="fog"
-                fetch="https://github.com" />
+                fetch="https://github.com" clone-depth="1" />
 
         <remove-project name="vendor_qcom_opensource_dataservices" /> 
         <project path="vendor/qcom/opensource/dataservices" name="Komodo-OS/vendor_qcom_opensource_dataservices" remote="fog" revision="staging/12.2_rebase-android-12.1.0_r4" />
