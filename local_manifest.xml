@@ -10,7 +10,7 @@
         <project path="packages/apps/TouchGestures" name="Komodo-OS/packages_apps_TouchGestures" remote="fog" revision="Tiramisu-bak" />
 
         <!-- Sync Trees -->
-	    <project path="kernel/xiaomi/fog" name="SourceLab081/sm6225-main" remote="fog" revision="fog-new" />
+        <project path="kernel/xiaomi/fog" name="SourceLab081/sm6225-main" remote="fog" revision="fog-new" />
         <project path="device/xiaomi/fog" name="online0code/device_xiaomi_fog" remote="fog" revision="12-kmd" />
         <project path="vendor/xiaomi/fog" name="develux44/vendor_xiaomi_fog-11" remote="fog" revision="lineage-19.1" />
        
