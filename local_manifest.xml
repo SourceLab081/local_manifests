@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <remote  name="github2"
+        <remote  name="fog"
         fetch="https://github.com/" clone-depth="1" />
 
-	<remote  name="gitlab"
-        fetch="https://gitlab.com/" clone-depth="1" />
-	
         <remote name="Iverz"
         fetch="https://github.com/asterixiverz" clone-depth="1" />
 
-        <!-- lineage libcxx 
-        <remove-project name="platform/external/libcxx" />
-        <project path="external/libcxx" name="LineageOS/android_external_libcxx" remote="github2" revision="lineage-20.0"/> -->
  
         <!-- Sync Trees -->
-        <project path="kernel/xiaomi/fog" name="SourceLab081/uvite" remote="github2" revision="vauxite-fog" />
-        <project path="device/xiaomi/fog" name="sourceslab062/device_xiaomi_fog" remote="gitlab" revision="CarbonROM-11.0" />
-        <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="Iverz" revision="thirteen" />
-
+        <project path="kernel/xiaomi/fog" name="SourceLab081/uvite" remote="fog" revision="vauxite-fog" />
+        <project path="device/xiaomi/fog" name="online0code/android_device_xiaomi_fog-13" remote="fog" revision="cr-11.0" />
+        <project path="vendor/xiaomi/fog" name="online0code/vendor_xiaomi_fog-11" remote="fog" revision="nad-13" />
+        <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="fog" revision="lineage-20.0" />
+        <project path="vendor/qcom/opensource/fm-commonsys" name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" remote="fog" revision="lineage-20.0" />
+        
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
        <project path="hardware/xiaomi" name="hardware_xiaomi" remote="Iverz" revision="thirteen-aosp" />
        <!-- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="tejas101k/clang-r450784d" remote="gitlab" revision="master" /> -->
