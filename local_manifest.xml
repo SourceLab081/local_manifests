@@ -11,7 +11,7 @@
 
         <!-- Sync Trees -->
         <project path="kernel/xiaomi/fog" name="SourceLab081/sm6225-main" remote="fog" revision="fog-new" />
-        <project path="device/xiaomi/fog" name="online0code/android_device_xiaomi_fog-13" remote="fog" revision="12-kmd" />
+        <project path="device/xiaomi/fog" name="online0code/android_device_xiaomi_fog-13" remote="fog" revision="kmd-12" />
         <project path="vendor/xiaomi/fog" name="online0code/vendor_xiaomi_fog-11" remote="fog" revision="nad-13" />
        
 </manifest>
