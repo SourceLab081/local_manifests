@@ -7,7 +7,7 @@
         <remove-project name="vendor_qcom_opensource_dataservices" /> 
         <project path="vendor/qcom/opensource/dataservices" name="Komodo-OS/vendor_qcom_opensource_dataservices" remote="fog" revision="staging/12.2_rebase-android-12.1.0_r4" />
         <remove-project name="packages_apps_TouchGestures" />
-        <project path="packages/apps/TouchGestures" name="Komodo-OS/packages_apps_TouchGestures" remote="fog" revision="Tiramisu-bak" />
+        <project path="packages/apps/TouchGestures" name="Komodo-OS/packages_apps_TouchGestures" remote="fog" revision="13" />
 
         <!-- Sync Trees -->
         <project path="kernel/xiaomi/fog" name="SourceLab081/sm6225-main" remote="fog" revision="fog-new" />
