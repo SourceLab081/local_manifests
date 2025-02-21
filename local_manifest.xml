@@ -9,7 +9,7 @@
 
  
         <!-- Sync Trees -->
-        <project path="kernel/xiaomi/fog" name="SourceLab081/uvite" remote="fog" revision="vauxite-fog" />
+        <project path="kernel/xiaomi/fog" name="SourceLab081/sm6225-main" remote="fog" revision="fog-new" />
         <project path="device/xiaomi/fog" name="online0code/android_device_xiaomi_fog-13" remote="fog" revision="cr-11.0" />
         <project path="vendor/xiaomi/fog" name="online0code/vendor_xiaomi_fog-11" remote="fog" revision="nad-13" />
         <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="fog" revision="lineage-20.0" />
