@@ -9,7 +9,7 @@
         
         <!-- Sync trees -->
         <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="fog" revision="vauxite-fog" />
-        <project path="device/xiaomi/fog" name="sourceslab062/device_xiaomi_fog" remote="fog2" revision="14-aicp" />
+        <project path="device/xiaomi/fog" name="sourceslab062/device_xiaomi_fog" remote="fog2" revision="14-syberia" />
         <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="fog" revision="fourteen" />
 
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
