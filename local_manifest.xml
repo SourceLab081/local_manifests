@@ -10,6 +10,6 @@
         <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="fog" revision="fifteen" />
 
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
-        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="fog" revision="lineage-22.1" />
+        <project path="hardware/xiaomi" name="HorizonDroidLab/hardware_xiaomi" remote="fog" revision="fifteen" />
 
 </manifest>
