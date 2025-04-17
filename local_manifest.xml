@@ -6,10 +6,10 @@
 
         <!-- Sync trees -->
         <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="fog" revision="vauxite-fog" />
-        <project path="device/xiaomi/fog" name="online0code/device_fog" remote="fog" revision="15-HorizonDroidLab" />
+        <project path="device/xiaomi/fog" name="online0code/device_fog" remote="fog" revision="lineage-22.2" />
         <project path="vendor/xiaomi/fog" name="online0code/vendor_xiaomi_fog" remote="fog" revision="15-b4p1a" />
 
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
-        <project path="hardware/xiaomi" name="HorizonDroidLab/hardware_xiaomi" remote="fog" revision="fifteen" />
+        <project path="hardware/xiaomi" name="HorizonV2/android_hardware_xiaomi" remote="fog" revision="lineage-22.2" />
 
 </manifest>
