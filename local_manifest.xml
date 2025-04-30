@@ -4,13 +4,13 @@
         <remote name="fog"
                 fetch="https://github.com" clone-depth="1" />
 
-        <remote name="fog2"
-                fetch="https://gitlab.com" clone-depth="1" />
         
         <!-- Sync trees -->
         <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="fog" revision="vauxite-fog" />
-        <project path="device/xiaomi/fog" name="sourceslab062/device_xiaomi_fog" remote="fog2" revision="14-aicp" />
+        <project path="device/xiaomi/fog" name="online0code/device_fog" remote="fog" revision="lineage-21-light" />
         <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="fog" revision="fourteen" />
+        <project path="lineage_build_unified" name="AndyCGYan/lineage_build_unified" remote="fog" revision="lineage-21-light" />
+        <project path="lineage_patches_unified" name="AndyCGYan/lineage_patches_unified" remote="fog" revision="lineage-21-light" />
 
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="fog" revision="lineage-21" />
