@@ -9,7 +9,4 @@
         <project path="device/xiaomi/fog" name="online0code/device_fog" remote="fog" revision="15-VoltageOS" />
         <project path="vendor/xiaomi/fog" name="online0code/vendor_xiaomi_fog" remote="fog" revision="15-b4p1a" />
 
-        <!-- Sync Hardware Dependencies for Xiaomi Devices -->
-        <project path="hardware/xiaomi" name="HorizonV2/android_hardware_xiaomi" remote="fog" revision="lineage-22.2" />
-
 </manifest>
