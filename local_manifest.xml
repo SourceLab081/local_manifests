@@ -3,7 +3,13 @@
 
         <remote name="fog"
                 fetch="https://github.com" clone-depth="1" />
+  
+        <remote name="omnirom-ssh"
+                  fetch="https://github.com/omnirom"
+                  review="gerrit.omnirom.org" />
 
+        <remove-project name="android_packages_apps_OmniChromium" />
+        <project path="packages/apps/OmniChromium" name="online0code/android_packages_apps_OmniChromium" remote="fog" revision="android-15" />
         <!-- Sync trees -->
         <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="fog" revision="vauxite-fog" />
         <project path="device/xiaomi/fog" name="online0code/device_fog" remote="fog" revision="16-omnirom" />
