@@ -6,7 +6,7 @@
 
         <!-- Sync trees -->
         <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="fog" revision="vauxite-fog" />
-        <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="fog" revision="16-VoltageOS2" />
+        <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="fog" revision="16-VoltageOS" />
         <project path="vendor/xiaomi/fog" name="online0code/vendor_xiaomi_fog" remote="fog" revision="15-b4p1a" />
 
 </manifest>
