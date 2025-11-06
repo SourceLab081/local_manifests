@@ -4,24 +4,24 @@
   <remote name="ghub"
                 fetch="https://github.com" clone-depth="1" />
         
-  <project path="device/xiaomi/fog" name="SourceLab08/device_xiaomi_fog-11_2" remote="ghub" revision="hybris-18.1" />
+  <project path="device/xiaomi/fog" name="SourceLab081/device_xiaomi_fog-11_2" remote="ghub" revision="hybris-18.1" />
   <project path="vendor/xiaomi/fog" name="Notkerd69/vendor_xiaomi_fog-db" remote="ghub" revision="lineage-18.1" />
-  <project path="kernel/xiaomi/fog" name="SourceLab08/hybris-kernel" remote="ghub" revision="sfos-fog" />
+  <project path="kernel/xiaomi/fog" name="SourceLab081/hybris-kernel" remote="ghub" revision="sfos-fog" />
   <remove-project path="hybris/hybris-boot" name="SailfishOS-miatoll/hybris-boot" />
-     <project path="hybris/hybris-boot" name="SourceLab08/hybris-boot" remote="ghub" revision="master" />      
+     <project path="hybris/hybris-boot" name="SourceLab081/hybris-boot" remote="ghub" revision="master" />      
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-18.1" />
-  <project path="fog-patches" name="SourceLab08/fog_patches" remote="ghub" revision="master" />
+  <project path="fog-patches" name="SourceLab081/fog_patches" remote="ghub" revision="master" />
   <project path="rpm/"
-    name="SourceLab08/droid-hal-fog" remote="ghub" revision="master" />
+    name="SourceLab081/droid-hal-fog" remote="ghub" revision="master" />
   <project path="hybris/droid-configs"
-    name="SourceLab08/droid-configs-fog" remote="ghub" revision="master" />
+    name="SourceLab081/droid-configs-fog" remote="ghub" revision="master" />
   <project path="hybris/droid-hal-version-fog"
-    name="SourceLab08/droid-hal-version-fog" remote="ghub" revision="master" />
+    name="SourceLab081/droid-hal-version-fog" remote="ghub" revision="master" />
   <!-- <project path="hybris/droid-system-fog"
-    name="SourceLab08/droid-system-fog" remote="ghub" revision="master" /> -->
+    name="SourceLab081/droid-system-fog" remote="ghub" revision="master" /> -->
   <project path="external/libhybris" name="mer-hybris/libhybris" remote="ghub" revision="master" />
   <project path="hybris/hybris-installer"
-    name="SourceLab08/hybris-installer" remote="ghub" revision="master" />
+    name="SourceLab081/hybris-installer" remote="ghub" revision="master" />
   <project path="hybris/mw/sailfish-fpd-community"
     name="sailfishos-open/sailfish-fpd-community" remote="ghub" revision="master" />      
         
