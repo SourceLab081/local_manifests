@@ -6,7 +6,7 @@
         
   <project path="device/xiaomi/fog" name="SourceLab081/device_xiaomi_fog-11_2" remote="ghub" revision="hybris-18.1" />
   <project path="vendor/xiaomi/fog" name="Notkerd69/vendor_xiaomi_fog-db" remote="ghub" revision="lineage-18.1" />
-  <project path="kernel/xiaomi/fog" name="SourceLab081/hybris-kernel" remote="ghub" revision="sfos-fog" />
+  <project path="kernel/xiaomi/fog" name="SourceLab081/hybris_kernel" remote="ghub" revision="sfos-fog" />
   <remove-project path="hybris/hybris-boot" name="SailfishOS-miatoll/hybris-boot" />
      <project path="hybris/hybris-boot" name="SourceLab081/hybris-boot" remote="ghub" revision="master" />      
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-18.1" />
