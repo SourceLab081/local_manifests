@@ -19,8 +19,8 @@
     name="SourceLab081/droid-configs-fog" remote="ghub" revision="master" />
   <project path="hybris/droid-hal-version-fog"
     name="SourceLab081/droid-hal-version-fog" remote="ghub" revision="master" />
-  <project path="hybris/droid-system-fog"
-    name="SourceLab081/droid-system-fog" remote="ghub" revision="master" /> 
+  <!-- <project path="hybris/droid-system-fog"
+    name="SourceLab081/droid-system-fog" remote="ghub" revision="master" /> -->
   <project path="hybris/mw/libhybris" name="mer-hybris/libhybris" remote="ghub" revision="master" />
   <project path="prebuilts/yuki-clang" name="TheXPerienceProject/yuki_clang" remote="glab" revision="18.0.0" />
   <project path="hybris/hybris-installer"
