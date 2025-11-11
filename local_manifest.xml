@@ -30,7 +30,7 @@
     name="SourceLab081/hybris-installer" remote="ghub" revision="master" />
    <remove-project path="hybris-patches" />
    <project path="hybris-patches"
-    name="mer-hybris/hybris-patches" remote="ghub" revision="hybris-18.1" />
+    name="SourceLab081/hybris-patches" remote="ghub" revision="hybris-18.1" />
   <!-- <project path="hybris/mw/sailfish-fpd-community"
     name="sailfishos-open/sailfish-fpd-community" remote="ghub" revision="master" /> -->     
         
