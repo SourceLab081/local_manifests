@@ -24,7 +24,7 @@
   <!--  sbb menggunakan /sfbootstrap sudah ada di script itu -->
   <!-- <project path="hybris/mw/libhybris" name="mer-hybris/libhybris" remote="ghub" revision="master" /> -->
   <!-- <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" /> -->
-  <project path="prebuilts/yuki-clang" name="TheXPerienceProject/yuki_clang" remote="glab" revision="18.0.0" /> 
+  <!-- <project path="prebuilts/yuki-clang" name="TheXPerienceProject/yuki_clang" remote="glab" revision="18.0.0" /> -->
   <remove-project path="hybris/hybris-installer" />
   <project path="hybris/hybris-installer"
     name="SourceLab081/hybris-installer" remote="ghub" revision="master" />
