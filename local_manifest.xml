@@ -10,6 +10,6 @@
         <project path="vendor/xiaomi/fog" name="online0code/vendor_xiaomi_fog" remote="fog" revision="15-b4p1a" />
 
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
-        <project path="hardware/xiaomi" name="VoltageOS/hardware_xiaomi" remote="fog" revision="16" />
+        <project path="hardware/xiaomi" name="WitAqua-Devices/hardware_xiaomi" remote="fog" revision=" 16.0" />
 
 </manifest>
