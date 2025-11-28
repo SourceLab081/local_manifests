@@ -27,7 +27,7 @@
     <project path="hybris/mw/sailfish-fpd-community" name="sailfishos-open/sailfish-fpd-community" remote="ghub" revision="master" />
     <project path="external/fake_crypt" name="SailfishOS-psyche/fake_crypt" remote="ghub" revision="master" />
     <!-- Community encryption -->
-    <project path="hybris/mw/hwcrypt" name="SailfishOS-psyche/hwcrypt" remote="ghub" revision="master" />  
+    <project path="hybris/mw/hwcrypt" name="SourceLab081/hwcrypt" remote="ghub" revision="keystore2" />  
         
 
 </manifest>
