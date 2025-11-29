@@ -8,7 +8,7 @@
         
   <project path="device/xiaomi/fog" name="online0code/device_xiaomi_fog" remote="ghub" revision="hybris-20.0" />
   <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="ghub" revision="thirteen" />
-  <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="fog" remote="ghub" revision="vauxite-fog" />
+  <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="ghub" revision="vauxite-fog" />
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-20" />
   
 </manifest>
