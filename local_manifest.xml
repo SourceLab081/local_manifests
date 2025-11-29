@@ -19,7 +19,7 @@
     name="SourceLab081/droid-configs-fog" remote="ghub" revision="hybris-20.0" />
   <project path="hybris/droid-hal-version-fog"
     name="SourceLab081/droid-hal-version-fog" remote="ghub" revision="hybris-20.0" />
-  <project path="external/libhybris" name="mer-hybris/libhybris" remote="ghub" revision="master" />
+  <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" />
   <project path="hybris/hybris-installer"
     name="SourceLab081/hybris-installer" remote="ghub" revision="master" />
   
