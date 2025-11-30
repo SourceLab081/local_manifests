@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="ghub"
+                fetch="https://github.com" clone-depth="1" />
+  <remote name="glab"
+                fetch="https://gitlab.com" clone-depth="1" />
+        
+  <project path="device/xiaomi/fog" name="online0code/device_xiaomi_fog" remote="ghub" revision="hybris-20.0" />
+  <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="ghub" revision="thirteen" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-20" />
+ 
+/manifest>
