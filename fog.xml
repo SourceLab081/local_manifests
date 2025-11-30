@@ -10,4 +10,4 @@
   <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="ghub" revision="thirteen" />
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-20" />
  
-/manifest>
+</manifest>
