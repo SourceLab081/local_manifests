@@ -19,10 +19,10 @@
     <!-- Community encryption -->
     <project path="hybris/mw/hwcrypt" name="SourceLab081/hwcrypt" remote="ghub" revision="keystore2" />  
 
-  <project path="hybris-patches" name="mer-hybris/hybris-patches" revision="hybris-20.0" />
-  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" revision="master" />
-  <project path="external/droidmedia" name="sailfishos/droidmedia" revision="master" />
-  <project path="external/busybox" name="mer-hybris/android_external_busybox_prebuilt" revision="master" />
-  <project path="external/selinux_stubs" name="mer-hybris/android_external_selinux_stubs" revision="hybris-20.0" />        
+  <project path="hybris-patches" name="mer-hybris/hybris-patches" remote="ghub" revision="hybris-20.0" />
+  <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" remote="ghub" revision="master" />
+  <project path="external/droidmedia" name="sailfishos/droidmedia" remote="ghub" revision="master" />
+  <project path="external/busybox" name="mer-hybris/android_external_busybox_prebuilt" remote="ghub" revision="master" />
+  <project path="external/selinux_stubs" name="mer-hybris/android_external_selinux_stubs" remote="ghub" revision="hybris-20.0" />        
 
 </manifest>
