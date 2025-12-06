@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         
-  <project path="kernel/xiaomi/fog" name="SourceLab081/hybris_kernel" remote="ghub" revision="sfos-fog" />
   <project path="hybris/hybris-boot" name="SourceLab081/hybris-boot" remote="ghub" revision="master" />      
   <project path="rpm/"
-    name="SourceLab081/droid-hal-fog" remote="ghub" revision="hybris-20.0" />
+    name="SourceLab081/droid-hal-fog" remote="ghub" revision="hybris-21.0" />
   <project path="hybris/droid-configs"
-    name="SourceLab081/droid-configs-fog" remote="ghub" revision="hybris-20.0" />
+    name="SourceLab081/droid-configs-fog" remote="ghub" revision="hybris-21.0" />
   <project path="hybris/droid-hal-version-fog"
-    name="SourceLab081/droid-hal-version-fog" remote="ghub" revision="hybris-20.0" />
-  <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" />
+    name="SourceLab081/droid-hal-version-fog" remote="ghub" revision="hybris-21.0" />
+  <project path="external/libhybris" name="mer-hybris/libhybris"  remote="ghub2" revision="master" />
   <project path="hybris/hybris-installer"
     name="SourceLab081/hybris-installer" remote="ghub" revision="master" />
   
     <!-- Custom fingerprint -->
-    <project path="hybris/mw/sailfish-fpd-community" name="sailfishos-open/sailfish-fpd-community" remote="ghub" revision="master" />
+    <project path="hybris/mw/sailfish-fpd-community" name="sailfishos-open/sailfish-fpd-community" remote="ghub2" revision="master" />
     <project path="external/fake_crypt" name="SailfishOS-psyche/fake_crypt" remote="ghub" revision="master" />
     <!-- Community encryption -->
-    <project path="hybris/mw/hwcrypt" name="SourceLab081/hwcrypt" remote="ghub" revision="keystore2" />  
+    <!-- <project path="hybris/mw/hwcrypt" name="SourceLab081/hwcrypt" remote="ghub" revision="keystore2" /> --> 
+   <project path="hybris/mw/hwcrypt" name="sailfishos-open/hwcrypt" remote="ghub2" revision="keystore2" />
 
-  <project path="hybris-patches" name="mer-hybris/hybris-patches" remote="ghub" revision="hybris-20.0" />
+  <project path="external/android_vendor_halium_hardware" name="Halium/android_vendor_halium_hardware" revision="halium-14.0" />
+  <project path="hybris-patches" name="mer-hybris/hybris-patches" remote="ghub" revision="hybris-21.0" />
   <project path="hybris/mer-kernel-check" name="mer-hybris/mer-kernel-check" remote="ghub" revision="master" />
-  <project path="external/droidmedia" name="sailfishos/droidmedia" remote="ghub" revision="master" />
+  <project path="external/droidmedia" name="sailfishos/droidmedia" remote="ghub2" revision="master" />
   <project path="external/busybox" name="mer-hybris/android_external_busybox_prebuilt" remote="ghub" revision="master" />
-  <project path="external/selinux_stubs" name="mer-hybris/android_external_selinux_stubs" remote="ghub" revision="hybris-20.0" />        
+  <project path="external/selinux_stubs" name="mer-hybris/android_external_selinux_stubs" remote="ghub2" revision="hybris-21.0" />        
 
 </manifest>
