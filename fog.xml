@@ -11,7 +11,7 @@
 
   <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="ghub" revision="lineage-21-light" />
   <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="ghub" revision="fourteen" />
-  <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="fog" revision="vauxite-fog" />
+  <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="ghub" revision="vauxite-fog" />
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-21" />
  
 </manifest>
