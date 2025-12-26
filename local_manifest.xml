@@ -3,12 +3,12 @@
 
   <remote name="ghub"
                 fetch="https://github.com" clone-depth="1" />
-  <remote name="glab"
-                fetch="https://gitlab.com" clone-depth="1" />
+  <remote name="ghub2"
+                fetch="https://gitlab.com" />
         
   <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="ghub" revision="hybris-20" />
   <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="ghub" revision="14-up" />
-  <project path="kernel/xiaomi/fog" name="SourceLab081/hybris_kernel" remote="ghub" revision="sfos-fog" />
+  <project path="kernel/xiaomi/fog" name="SourceLab081/greenforce" remote="ghub" revision="fog-new" />
   <remove-project path="hybris/hybris-boot" />
      <project path="hybris/hybris-boot" name="SourceLab081/hybris-boot" remote="ghub" revision="master" />      
   <project path="hardware/xiaomi" name="SailfishOS-psyche/hardware_xiaomi" remote="ghub" revision="hybris-20.0" />
@@ -19,7 +19,7 @@
     name="SourceLab081/droid-configs-fog" remote="ghub" revision="hybris-20.0" />
   <project path="hybris/droid-hal-version-fog"
     name="SourceLab081/droid-hal-version-fog" remote="ghub" revision="hybris-20.0" />
-  <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" />
+  <project path="external/libhybris" name="mer-hybris/libhybris" remote="ghub2" revision="master" />
   <project path="hybris/hybris-installer"
     name="SourceLab081/hybris-installer" remote="ghub" revision="master" />
   
