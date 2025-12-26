@@ -6,8 +6,8 @@
   <remote name="glab"
                 fetch="https://gitlab.com" clone-depth="1" />
         
-  <project path="device/xiaomi/fog" name="online0code/device_xiaomi_fog" remote="ghub" revision="hybris-20.0" />
-  <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="ghub" revision="thirteen" />
+  <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="ghub" revision="hybris-20" />
+  <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="ghub" revision="14-up" />
   <project path="kernel/xiaomi/fog" name="SourceLab081/hybris_kernel" remote="ghub" revision="sfos-fog" />
   <remove-project path="hybris/hybris-boot" />
      <project path="hybris/hybris-boot" name="SourceLab081/hybris-boot" remote="ghub" revision="master" />      
