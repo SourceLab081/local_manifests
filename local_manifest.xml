@@ -3,12 +3,13 @@
 
   <remote name="ghub"
                 fetch="https://github.com" clone-depth="1" />
-  <remote name="glab"
-                fetch="https://gitlab.com" clone-depth="1" />
+  
+  <remote name="ghub2"
+                fetch="https://github.com" />
         
   <project path="device/xiaomi/fog" name="SourceLab081/device_xiaomi_fog-11_2" remote="ghub" revision="hybris-18.1" />
   <project path="vendor/xiaomi/fog" name="Notkerd69/vendor_xiaomi_fog-db" remote="ghub" revision="lineage-18.1" />
-  <project path="kernel/xiaomi/fog" name="SourceLab081/hybris_kernel" remote="ghub" revision="sfos-fog" />
+  <project path="kernel/xiaomi/fog" name="SourceLab081/greenforce" remote="ghub" revision="fog-new" />
   <remove-project path="hybris/hybris-boot" />
      <project path="hybris/hybris-boot" name="SourceLab081/hybris-boot" remote="ghub" revision="master" />      
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-18.1" />
@@ -23,16 +24,15 @@
     name="SourceLab081/droid-system-fog" remote="ghub" revision="master" /> -->
   <!--  sbb menggunakan /sfbootstrap sudah ada di script itu -->
   <!-- <project path="hybris/mw/libhybris" name="mer-hybris/libhybris" remote="ghub" revision="master" /> -->
-  <!-- <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" /> -->
+ <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" remote="ghub2" />
   <!-- <project path="prebuilts/yuki-clang" name="TheXPerienceProject/yuki_clang" remote="glab" revision="18.0.0" /> -->
-  <remove-project path="hybris/hybris-installer" />
-  <project path="hybris/hybris-installer"
-    name="SourceLab081/hybris-installer" remote="ghub" revision="master" />
-   <remove-project path="hybris-patches" />
-   <project path="hybris-patches"
-    name="SourceLab081/hybris-patches" remote="ghub" revision="hybris-18.1" />
-  <!-- <project path="hybris/mw/sailfish-fpd-community"
-    name="sailfishos-open/sailfish-fpd-community" remote="ghub" revision="master" /> -->     
-        
+ <remove-project path="hybris/hybris-installer" />
+     <project path="hybris/hybris-installer" name="SourceLab081/hybris-installer" remote="ghub" revision="master" />
+ <remove-project path="hybris-patches" />
+     <project path="hybris-patches" name="SourceLab081/hybris-patches" remote="ghub" revision="hybris-18.1" />
+ <project path="hybris/mw/sailfish-fpd-community" name="sailfishos-open/sailfish-fpd-community" remote="ghub" revision="master" />
+ <project path="external/fake_crypt" name="SailfishOS-vayu/fake_crypt" remote="ghub" revision="master" />
+ <!-- Community encryption -->
+ <project path="hybris/mw/hwcrypt" name="SailfishOS-vayu/hwcrypt" remote="ghub" revision="master" />
 
 </manifest>
