@@ -26,9 +26,8 @@
   <!-- <project path="hybris/mw/libhybris" name="mer-hybris/libhybris" remote="ghub" revision="master" /> -->
  <project path="external/libhybris" name="mer-hybris/libhybris" revision="master" remote="ghub2" />
  <!-- <project path="prebuilts/yuki-clang" name="TheXPerienceProject/yuki_clang" remote="glab" revision="18.0.0" /> -->
- <remove-project path="hybris/hybris-installer" />
-     <project path="hybris/hybris-installer" name="SourceLab081/hybris-installer" remote="ghub" revision="master" />
-  <remove-project path="hybris-patches" />
+ <project path="hybris/hybris-installer" name="SourceLab081/hybris-installer" remote="ghub" revision="master" />
+ <remove-project path="hybris-patches" />
      <project path="hybris-patches" name="sailfishos-on-sake/hybris-patches" remote="ghub" revision="hybris-18.1" />
   <!-- <project path="hybris-patches" name="SourceLab081/hybris-patches" remote="ghub" revision="hybris-18.1" /> -->
  <project path="hybris/mw/sailfish-fpd-community" name="sailfishos-open/sailfish-fpd-community" remote="ghub" revision="master" />
