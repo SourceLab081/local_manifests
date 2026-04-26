@@ -8,7 +8,7 @@
         
   <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="ghub" revision="hybris-20" />
   <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="ghub" revision="14-up" />
-  <project path="kernel/xiaomi/fog" name="SourceLab081/greenforce" remote="ghub" revision="fog-new" />
+  <project path="kernel/xiaomi/fog" name="online0code/greenforce_fog" remote="ghub" revision="main" />
   <remove-project path="hybris/hybris-boot" />
      <project path="hybris/hybris-boot" name="SourceLab081/hybris-boot" remote="ghub" revision="master" />      
   <project path="hardware/xiaomi" name="SailfishOS-psyche/hardware_xiaomi" remote="ghub" revision="hybris-20.0" />
