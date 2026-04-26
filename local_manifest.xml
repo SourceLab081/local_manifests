@@ -11,8 +11,8 @@
   <project path="kernel/xiaomi/fog" name="online0code/greenforce_fog" remote="ghub" revision="main" />
   <remove-project path="hybris/hybris-boot" />
      <project path="hybris/hybris-boot" name="SourceLab081/hybris-boot" remote="ghub" revision="master" />      
-  <project path="hardware/xiaomi" name="SailfishOS-psyche/hardware_xiaomi" remote="ghub" revision="hybris-20.0" />
-  <!-- <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-20" /> -->
+  <!-- <project path="hardware/xiaomi" name="SailfishOS-psyche/hardware_xiaomi" remote="ghub" revision="hybris-20.0" /> -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-20" /> 
   <project path="rpm/"
     name="SourceLab081/droid-hal-fog" remote="ghub" revision="hybris-20.0" />
   <project path="hybris/droid-configs"
