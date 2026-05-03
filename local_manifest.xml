@@ -15,11 +15,11 @@
   <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-18.1" />
   <!-- <project path="fog-patches" name="SourceLab081/fog_patches" remote="ghub" revision="master" />-->
   <project path="rpm/"
-    name="SourceLab081/droid-hal-fog" remote="ghub" revision="master" />
+    name="SourceLab081/droid-hal-fog" remote="ghub" revision="hybris-18.1" />
   <project path="hybris/droid-configs"
-    name="SourceLab081/droid-configs-fog" remote="ghub" revision="master" />
+    name="SourceLab081/droid-configs-fog" remote="ghub" revision="hybris-18.1" />
   <project path="hybris/droid-hal-version-fog"
-    name="SourceLab081/droid-hal-version-fog" remote="ghub" revision="master" />
+    name="SourceLab081/droid-hal-version-fog" remote="ghub" revision="hybris-18.1" />
   <!--<project path="hybris/droid-system-fog"
     name="SourceLab081/droid-system-fog" remote="ghub" revision="master" /> -->
   <!--  sbb menggunakan /sfbootstrap sudah ada di script itu -->
