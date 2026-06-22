@@ -7,8 +7,8 @@
   <remote name="ghub2"
                 fetch="https://github.com" />
         
-  <project path="device/xiaomi/fog" name="SourceLab081/device_xiaomi_fog-11" remote="ghub" revision="hybris-18.1" />
-  <project path="vendor/xiaomi/fog" name="Notkerd69/vendor_xiaomi_fog-db" remote="ghub" revision="lineage-18.1" />
+  <project path="device/xiaomi/fog" name="SourceLab081/device_xiaomi_fog-11_2" remote="ghub" revision="hybris-18.1" />
+  <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog-11" remote="ghub" revision="lineage-18.1" />
   <project path="kernel/xiaomi/fog" name="SourceLab081/greenforce" remote="ghub" revision="fog" />
   <remove-project path="hybris/hybris-boot" />
      <project path="hybris/hybris-boot" name="SourceLab081/hybris-boot" remote="ghub" revision="master" />      
