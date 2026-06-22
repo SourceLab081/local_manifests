@@ -29,7 +29,7 @@
  <project path="hybris/hybris-installer" name="SourceLab081/hybris-installer" remote="ghub" revision="master" />
  <project path="vayu-patches" name="SailfishOS-vayu/vayu_patches" remote="ghub" revision="master" />
  <project path="miatoll-patches" name="SailfishOS-miatoll/miatoll_patches" revision="master" />
- <project path="hybris-patches" name="SailfishOS-miatoll/hybris-patches" remote="ghub" revision="hybris-18.1" />
+  <!--<project path="hybris-patches" name="SailfishOS-miatoll/hybris-patches" remote="ghub" revision="hybris-18.1" /> -->
  <project path="hybris/mw/sailfish-fpd-community" name="sailfishos-open/sailfish-fpd-community" remote="ghub" revision="master" />
  <project path="external/fake_crypt" name="SailfishOS-vayu/fake_crypt" remote="ghub" revision="master" />
  <!-- Community encryption -->
