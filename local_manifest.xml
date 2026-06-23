@@ -7,7 +7,7 @@
         <!-- Sync trees -->
         <project path="device/xiaomi/fog" name="SourceLab081/device_xiaomi_fog-11_2" remote="ghub" revision="crdroid-11" />
         <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog-11" remote="ghub" revision="lineage-18.1" />
-	    <project name="SourceLab081/uvite" path="kernel/xiaomi/fog" remote="fog" revision="vauxite-fog" />
+	    <project path="kernel/xiaomi/fog" name="SourceLab081/greenforce"  remote="ghub" revision="fog" />
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="ghub" revision="lineage-18.1" />
        
 </manifest>
