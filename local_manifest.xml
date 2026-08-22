@@ -5,7 +5,7 @@
                 fetch="https://github.com" clone-depth="1" />
 
         <!-- Sync trees -->
-        <project path="kernel/xiaomi/fog" name="SourceLab081/greenforce"  remote="fog" revision="fog-new" /> 
+         <!--  <project path="kernel/xiaomi/fog" name="SourceLab081/greenforce"  remote="fog" revision="fog-new" />  -->
         <!-- <project path="kernel/xiaomi/fog" name="SourceLab081/sm6225-main"  remote="fog" revision="main-a16-sm8250-base-ksun-susfs" /> 
          <project path="device/xiaomi/fog-kernel" name="alternoegraha/device_xiaomi_fog-kernel" remote="fog" revision="bpf" />  -->
         <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="fog" revision="17-VoltageOS" />
