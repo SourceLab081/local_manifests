@@ -5,6 +5,7 @@
                 fetch="https://github.com" clone-depth="1" />
 
         <!-- Menonaktifkan repo vendor_shinkai dari manifest utama -->
+        <remove-project name="ShinkaiProject/shinkai_packages_apps_LMOFreeform" />
         <remove-project name="ShinkaiProject/android_vendor_shinkai" />
         <!-- Sync trees -->
         <!-- <project path="kernel/xiaomi/fog" name="SourceLab081/greenforce"  remote="fog" revision="fog-new" /> -->
