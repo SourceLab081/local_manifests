@@ -7,7 +7,7 @@
         <!-- Sync trees -->
         <!-- <project path="kernel/xiaomi/fog" name="SourceLab081/greenforce"  remote="fog" revision="fog-new" /> -->
         <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="fog" revision="17-HertzifyOS" />
-        <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="fog" revision="cp2a" />
+        <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="fog" revision="cp2a-pixel" />
 
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
       	<project path="hardware/xiaomi" name="PixelOS-AOSP/android_hardware_xiaomi" remote="fog" revision="seventeen" />
