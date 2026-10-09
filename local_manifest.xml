@@ -5,6 +5,10 @@
                 fetch="https://github.com" clone-depth="1" />
 
         <!-- Sync trees -->
+        <remove-project name="packages_apps_PenguinSetupWizard" />
+        <remove-project name="packages_apps_Updater" />
+
+        <project path="packages/apps/SetupWizard" name="SourceLab081/android_packages_apps_SetupWizard" remote="fog" revision="penguin"/>
         <!-- <project path="kernel/xiaomi/fog" name="SourceLab081/greenforce"  remote="fog" revision="fog-new" /> -->
         <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="fog" revision="17-PenguinOS-AOSP" />
         <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="fog" revision="cp2a-calcite" />
