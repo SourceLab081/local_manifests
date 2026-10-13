@@ -5,6 +5,7 @@
                 fetch="https://github.com" clone-depth="1" />
 
         <!-- Sync trees -->
+        <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="fog" revision="fog" />
         <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="fog" revision="calcite" />
         <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="fog" revision="calcite" />
 
