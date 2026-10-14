@@ -12,13 +12,13 @@
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
       	<project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="fog" revision="calcite" />
         <!-- beans.xml or bengal.xml --> 
-        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="vauxite-bengal" />
+        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="vauxite-bengal" clone-depth="1" />
         <!-- from kona.xml -->
         <!--<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="vauxite-865"/>-->
-        <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="vauxite-865"/>
-        <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="vauxite-legacy-component"/>
-        <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="vauxite-865"/>
+        <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="vauxite-865" clone-depth="1" />
+        <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="vauxite-legacy-component" clone-depth="1" />
+        <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="vauxite-865" clone-depth="1" />
         <remove-project name="AOSPA/android_hardware_qcom_thermal" />
-        <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" revision="vauxite-legacy" />
+        <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" revision="vauxite-legacy" clone-depth="1" />
 
 </manifest>
