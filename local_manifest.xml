@@ -12,6 +12,7 @@
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
       	<project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="fog" revision="calcite" />
         <!-- beans.xml or bengal.xml --> 
+        <project path="prebuilts/clang-standalone" name="android_prebuilts_clang-standalone" remote="blobs-gitlab" revision="14" clone-depth="1" />
         <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="vauxite-bengal" clone-depth="1" />
         <!-- from kona.xml -->
         <!--<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="vauxite-865"/>-->
