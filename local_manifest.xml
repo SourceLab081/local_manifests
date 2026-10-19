@@ -10,10 +10,7 @@
         <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="fog" revision="cp2a-calcite" />
 
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
-      	<project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="fog" revision="calcite" />
-        <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="fog" revision="lineage-24.0" />
-        <project path="hardware/lineage/interfaces" name="LineageOS/android_hardware_lineage_interfaces" remote="fog" revision="lineage-24.0" />
-        <!--
-        <project path="hardware/xiaomi" name="VoltageOS/hardware_xiaomi" remote="fog" revision="16" /> -->
+        <project path="hardware/xiaomi" name="PixelOS-AOSP/android_hardware_xiaomi" remote="fog" revision="seventeen" 
+      	<!--<project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="fog" revision="calcite" /> -->
 
 </manifest>
