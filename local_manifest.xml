@@ -12,5 +12,7 @@
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
         <!-- <project path="hardware/xiaomi" name="PixelOS-AOSP/android_hardware_xiaomi" remote="fog" revision="seventeen"  /> -->
       	<project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="fog" revision="calcite" /> 
+        <remove-project name="android_hardware_qcom_wlan" />
+        <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="fog" revision="calcite"  />
        
 </manifest>
