@@ -10,7 +10,8 @@
         <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="fog" revision="cp2a-calcite" />
 
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
-        <project path="hardware/xiaomi" name="PixelOS-AOSP/android_hardware_xiaomi" remote="fog" revision="seventeen"  /> 
-      	<!--<project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="fog" revision="calcite" /> -->
+        <!-- <project path="hardware/xiaomi" name="PixelOS-AOSP/android_hardware_xiaomi" remote="fog" revision="seventeen"  /> -->
+      	<project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="fog" revision="calcite" /> 
+        <project path="hardware/qcom/wlan" name="AOSPA/android_hardware_qcom_wlan" remote="calcite"   />
 
 </manifest>
