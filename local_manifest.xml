@@ -4,15 +4,22 @@
         <remote name="fog"
                 fetch="https://github.com" clone-depth="1" />
 
-        <remote name="fog2"
-                fetch="https://gitlab.com" clone-depth="1" />
-        
         <!-- Sync trees -->
-        <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="fog" revision="vauxite-fog" />
-        <project path="device/xiaomi/fog" name="sourceslab062/device_xiaomi_fog" remote="fog2" revision="15-derp" />
-        <project path="vendor/xiaomi/fog" name="asterixiverz/vendor_xiaomi_fog" remote="fog" revision="fifteen" />
+        <!--<project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="fog" revision="vauxite-fog" />-->
+        <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="fog" revision="calcite" />
+        <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="fog" revision="calcite" />
 
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
-        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="fog" revision="lineage-22.1" />
+      	<project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="fog" revision="calcite" />
+        <!-- beans.xml or bengal.xml --> 
+        <project path="prebuilts/clang-standalone" name="android_prebuilts_clang-standalone" remote="blobs-gitlab" revision="14" clone-depth="1" />
+        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="vauxite-bengal" clone-depth="1" />
+        <!-- from kona.xml -->
+        <!--<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="vauxite-865"/>-->
+        <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="vauxite-865" clone-depth="1" />
+        <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="vauxite-legacy-component" clone-depth="1" />
+        <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="vauxite-865" clone-depth="1" />
+        <remove-project name="AOSPA/android_hardware_qcom_thermal" />
+        <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" revision="vauxite-legacy" clone-depth="1" />
 
 </manifest>
