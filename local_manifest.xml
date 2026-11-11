@@ -6,28 +6,18 @@
 
         <!-- Sync trees -->
         <!-- <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="fog" revision="vauxite-fog" />-->
-        <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="fog" revision="calcite_" />
-        <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="fog" revision="calcite_" />
+        <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="fog" revision="17-LumineDroid" />
+        <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="fog" revision="calcite" />
 
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
-      	<project path="hardware/xiaomi" name="AOSPA/android_hardware_xiaomi" remote="fog" revision="calcite" />
+      	<project path="hardware/xiaomi" name="LumineDroid/platform_hardware_xiaomi" remote="fog" revision="camellia" />
         <!-- beans.xml or bengal.xml --> 
-        <!-- from kona.xml -->
-        <!--<project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="vauxite-865"/>-->
-        <project path="prebuilts/clang-standalone" name="android_prebuilts_clang-standalone" remote="blobs-gitlab" revision="14" clone-depth="1" />
-        <!--
-        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="AOSPA/android_hardware_qcom_audio" remote="aospa" revision="calcite-8450" clone-depth="1" />
-        <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="aospa" revision="calcite-8450" clone-depth="1" />
-        <project path="hardware/qcom/media" name="AOSPA/android_hardware_qcom_media" remote="aospa" revision="calcite-8450" clone-depth="1" />
-        -->
-        <project path="vendor/qcom/opensource/audio-hal/primary-hal" name="SourceLab081/android_hardware_qcom_audio" remote="fog" revision="calcite-865" />
-        <project path="hardware/qcom/display" name="SourceLab081/android_hardware_qcom_display" remote="fog" revision="calcite-865" />
-        <project path="hardware/qcom/media" name="SourceLab081/android_hardware_qcom_media" remote="fog" revision="calcite-865" />
-        <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="AOSPA/android_vendor_nxp_opensource_packages_apps_Nfc" remote="aospa" revision="topaz" clone-depth="1" />
-        <project path="vendor/nxp/opensource/halimpl" name="AOSPA/android_vendor_nxp_opensource_halimpl" remote="aospa" revision="vauxite-SN100X-legacy" clone-depth="1" />
-        <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="vauxite-SN100X-legacy" clone-depth="1" />
-        <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="calcite-legacy-component" clone-depth="1" />
-        <remove-project name="AOSPA/android_hardware_qcom_thermal" />
-        <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" revision="calcite" clone-depth="1" />
-
+        <!-- hardware -->
+        <project path="hardware/qcom-caf/sm6225/audio/agm" name="HexaUnion/android_vendor_qcom_opensource_agm" groups="qcom,divar-audio" remote="fog" revision="lineage-23.2-caf-sm6225"/>
+        <project path="hardware/qcom-caf/sm6225/audio/graphservices" name="HexaUnion/android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" remote="fog" revision="lineage-23.2-caf-sm6225" />
+        <project path="hardware/qcom-caf/sm6225/audio/pal" name="HexaUnion/android_vendor_qcom_opensource_arpal-lx" groups="qcom,divar-audio" remote="fog" revision="lineage-23.2-caf-sm6225"/>
+        <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="HexaUnion/android_hardware_qcom_audio-ar" groups="qcom,divar-audio" remote="fog" revision="lineage-23.2-caf-sm6225"/>
+        <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="HexaUnion/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,divar-vendor" remote="fog" revision="lineage-23.2-caf-sm6225"/>
+        <project path="hardware/qcom-caf/sm6225/dataipa" name="HexaUnion/android_vendor_qcom_opensource_dataipa" groups="qcom,divar-vendor" remote="fog" revision="lineage-23.2-caf-sm6225" />
+        <project path="hardware/qcom-caf/sm6225/display" name="HexaUnion/android_hardware_qcom_display" groups="qcom" remote="fog" revision="lineage-23.2-caf-sm6225"/>
 </manifest>
