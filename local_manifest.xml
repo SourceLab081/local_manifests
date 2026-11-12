@@ -7,17 +7,9 @@
         <!-- Sync trees -->
         <!-- <project path="kernel/xiaomi/fog" name="SourceLab081/uvite"  remote="fog" revision="vauxite-fog" />-->
         <project path="device/xiaomi/fog" name="SourceLab081/device_fog" remote="fog" revision="16-LumineDroid" />
-        <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="fog" revision="16_" />
-        <project path="device/qcom/sepolicy_vndr/sm6225" name="HexaUnion/android_device_qcom_sepolicy_vndr" groups="qcom,divar-vendor" remote="fog" revision="lineage-23.2-caf-sm6225"/>
+        <project path="vendor/xiaomi/fog" name="SourceLab081/vendor_xiaomi_fog" remote="fog" revision="16" />
         <!-- Sync Hardware Dependencies for Xiaomi Devices -->
       	<project path="hardware/xiaomi" name="LumineDroid/platform_hardware_xiaomi" remote="fog" revision="bellflower" />
         <!-- beans.xml or bengal.xml --> 
-        <!-- hardware -->
-        <project path="hardware/qcom-caf/sm6225/audio/agm" name="HexaUnion/android_vendor_qcom_opensource_agm" groups="qcom,divar-audio" remote="fog" revision="lineage-23.2-caf-sm6225"/>
-        <project path="hardware/qcom-caf/sm6225/audio/graphservices" name="HexaUnion/android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" remote="fog" revision="lineage-23.2-caf-sm6225" />
-        <project path="hardware/qcom-caf/sm6225/audio/pal" name="HexaUnion/android_vendor_qcom_opensource_arpal-lx" groups="qcom,divar-audio" remote="fog" revision="lineage-23.2-caf-sm6225"/>
-        <project path="hardware/qcom-caf/sm6225/audio/primary-hal" name="HexaUnion/android_hardware_qcom_audio-ar" groups="qcom,divar-audio" remote="fog" revision="lineage-23.2-caf-sm6225"/>
-        <project path="hardware/qcom-caf/sm6225/data-ipa-cfg-mgr" name="HexaUnion/android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,divar-vendor" remote="fog" revision="lineage-23.2-caf-sm6225"/>
-        <project path="hardware/qcom-caf/sm6225/dataipa" name="HexaUnion/android_vendor_qcom_opensource_dataipa" groups="qcom,divar-vendor" remote="fog" revision="lineage-23.2-caf-sm6225" />
-        <project path="hardware/qcom-caf/sm6225/display" name="HexaUnion/android_hardware_qcom_display" groups="qcom" remote="fog" revision="lineage-23.2-caf-sm6225"/>
-</manifest>
+
+        
