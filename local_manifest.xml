@@ -30,7 +30,7 @@
         <project path="vendor/nxp/opensource/hidlimpl" name="AOSPA/android_vendor_nxp_opensource_hidlimpl" remote="aospa" revision="vauxite-SN100X-legacy" clone-depth="1" />
         -->
         <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="calcite-legacy-component" clone-depth="1" />
-        <remove-project name="AOSPA/android_hardware_qcom_thermal" />
+        
         <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" revision="calcite" clone-depth="1" />
 
 </manifest>
