@@ -12,4 +12,4 @@
       	<project path="hardware/xiaomi" name="LumineDroid/platform_hardware_xiaomi" remote="fog" revision="bellflower" />
         <!-- beans.xml or bengal.xml --> 
 
-        
+</manifest>        
