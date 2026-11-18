@@ -31,6 +31,4 @@
         -->
         <project path="hardware/qcom/gps" name="AOSPA/android_hardware_qcom_gps" remote="aospa" revision="calcite-legacy-component" clone-depth="1" />
         
-        <project path="vendor/qcom/opensource/thermal-hal" name="AOSPA/android_hardware_qcom_thermal" remote="aospa" revision="calcite" clone-depth="1" />
-
 </manifest>
